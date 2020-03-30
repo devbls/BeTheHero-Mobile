@@ -32,6 +32,8 @@ export default function Incidents() {
     navigate('Details', { incident });
   }
 
+  // Comment
+
   async function loadIncidents() {
     if (loading) {
       return;
